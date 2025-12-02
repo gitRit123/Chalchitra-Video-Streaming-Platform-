@@ -1,0 +1,23 @@
+﻿# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build / cache
+frontend/.cache/
+dist/
+build/
+
+# Uploads (videos/images)
+backend/uploads/
+frontend/public/uploads/
+*.mp4
+
+# Env / secrets
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+*.log
